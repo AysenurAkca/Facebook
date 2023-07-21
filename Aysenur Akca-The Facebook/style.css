@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+a{
+    color: #3b5998;
+    text-decoration: none;
+}
+
+select {
+    border: 1px solid #96a6c5;
+    border-radius: 5px;
+    padding: 1px 2px;
+
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#head{
+    width: 1200px;
+    height: 65px;
+    background-color: #3b5998;
+}
+
+#head-inner{
+    width: 60%;
+    margin: 0 auto;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#head-logo{
+    width: 20%;
+}
+
+#head-form{
+    width: 40%;
+    display: flex;
+    gap: 5px;
+    align-items: flex-end;
+
+}
+
+.inputs{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.inputs input{
+    padding: 3px 6px;
+    border: 1px solid black;
+}
+
+.inputs p {
+    color: white;
+    font-weight: bolder;
+}
+
+#login-btn{
+    height: 25px;
+    padding: 3px 6px;
+    background-color: #5f78ab;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #2e4a86;
+}
+
+#main{
+    width: 1200px;
+    height: auto;
+    background-color: #eeeff6;
+    padding-bottom: 20px;
+}
+
+#main-inner{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#main-left{
+    width: 50%;
+    color: #0e385f;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#main-right{
+    width: 40%;
+}
+
+#sign-up{
+    border-bottom: 1px solid #96a6c5;
+    color: #092d5c;
+    padding-bottom: 5px;
+    
+}
+
+#input-section{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.input-info{
+    display: flex;
+    gap: 2px;
+}
+
+.input-info label {
+    width: 30%;
+    text-align: right;
+    color: #092d5c;
+}
+
+.input-info input {
+    width: 70%;
+    padding: 3px 6px;
+    border: 1px solid #96a6c5;
+}
+
+#birthday select:first-child{
+    width: 27%;
+    margin-right: 5px;
+}
+#birthday select:last-child{
+    margin-right: 0;
+}
+#after-info{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #96a6c5;
+    
+}
+#after-info-sub{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#after-info-sub-up{
+    color: #3b5998;
+}
+
+#after-info-sub-btn input{
+    padding: 5px 20px;
+    background-color: #67a54b;
+    font-weight: bold;
+    color: white;
+}
+
+#sign-up-last-text{
+    text-align: center;
+    padding-top: 10px;
+    color:#717273 ;
+    font-weight: bolder;
+}
+
+#footer{
+    width: 60%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#footer-up{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #eeeff6;
+}
+
+#footer-up-etc{
+    background-color: #eeeff6;
+    border: 1px solid #eeeff6;
+    padding-left:2px ;
+    padding-right:2px ;
+}
+#footer-down{
+    display: flex;  
+    justify-content: space-between;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+#footer-down-left{
+    width: 30%;
+    color: #333;
+}
+
+#footer-down-right{
+    width: 65%;
+    text-align: right;
+}
